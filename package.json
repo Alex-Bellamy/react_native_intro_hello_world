@@ -5,7 +5,8 @@
     "ios": "react-native run-ios",
     "web": "expo start --web",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "cypress": "cypress open"
   },
   "dependencies": {
     "expo": "~38.0.9",
@@ -24,6 +25,7 @@
   "devDependencies": {
     "@babel/core": "~7.9.0",
     "babel-jest": "~25.2.6",
+    "cypress": "^4.12.1",
     "jest": "~25.2.6",
     "react-test-renderer": "~16.11.0"
   },
